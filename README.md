@@ -122,5 +122,7 @@
 
 * Margin vs Padding
   * Margins create extra space around an element, while padding creates extra space within an element.
-  * Use combination of margin and padding to set the outer space outside the card and inner space between card and child element
-(/images-readme/preview.jpg)  
+  
+  * Use combination of margin and padding to set the outer space outside the card and inner space between card and child 
+  
+    ![margin and padding](/images-readme/preview.jpg)  
