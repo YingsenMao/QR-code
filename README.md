@@ -125,4 +125,4 @@
   
   * Use combination of margin and padding to set the outer space outside the card and inner space between card and child 
   
-    ![margin and padding](/images-readme/preview.jpg)  
+    ![margin and padding](/images-readme/WX20250608-205800@2x.png.jpg)  
