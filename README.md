@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+![Design preview for the QR code component coding challenge](/images-readme/preview.jpg)
 
 # What has learned?
 
@@ -95,4 +95,32 @@
 	<strong>Careful, many of these are not supported!</strong></td>
   </tr>
 </tbody></table>
-* `min-height`: min-height have NO effect until minmize window to certain size */
+* `min-height`: min-height have NO effect until minmizing window to certain size 
+
+* inline vs inline block vs block
+
+  * inline 
+    * displays an element as an inline element, height and widhth properties will have no effect(image is an exception)
+    * Examples are `span` `a` `img` and formatting tags such as `em` `strong` `i` `small`
+  * Inline-block
+    * displays an element as an inline element except height and widhth properties will have effect
+  * block
+    * starts a new line and takes up the full width available, it occupies the entire width of its parent element
+    * Examples are `div` `h1` `p` `li` `secion`  
+
+  
+
+* responsive automatically height and width adjusted image without overflowing parent element
+
+  ```
+  img {
+  	display: block;
+  	max-width: 100%;
+  	height: auto;
+  }
+  ```
+
+* Margin vs Padding
+  * Margins create extra space around an element, while padding creates extra space within an element.
+  * Use combination of margin and padding to set the outer space outside the card and inner space between card and child element
+(/images-readme/preview.jpg)  

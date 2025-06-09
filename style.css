@@ -40,10 +40,12 @@ body {
     /* flexbox also fixes the overflow issue */
     display: flex;
     flex-direction: column;
+    padding: 1rem 1rem 2.5rem 1rem;
 }
 
 .qr-code {
-    margin: 1rem 1rem 0rem 1rem;
+    margin-bottom: 1rem;
+    /* margin: 1rem 1rem 0rem 1rem; */
     
 }
 
@@ -55,7 +57,7 @@ body {
 }
 
 .qr-description {
-     margin: 1.5rem 1rem 2.5rem 1rem; 
+     /* margin: 1.5rem 1rem 2.5rem 1rem;  */
      text-align: center;
 }
 
